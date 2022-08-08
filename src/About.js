@@ -1,11 +1,16 @@
 import { Component } from "react";
 
-class Profile extends Component {
+import Profilecom from "./Profilecom";
+class About extends Component {s
 
-  render() {
-    /* TODO: render information about the developers */
-    return <p>Profile page coming soon</p>
+  render () {
+    return (
+      <div className="about">
+       <Profilecom/>
+        
+            </div>
+    );
   }
 };
 
-export default Profile;
+export default About;
