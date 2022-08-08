@@ -1,11 +1,34 @@
-# Start your own "Can of Books" App
+# City Exploer
 
-This repository has starter code to begin work on creating your own online bookshelf.
+## Author: Hamzah Aldaamas Version: 1.0.0.
 
-## What can books do?
+# Overview
+ > BookShop page using Auth0 to make login  to page and you can make shoping
+## Getting Started
+1. Click on Login button
+2. login using gmail or anything else.
+3. then you can make shop.
+4. you can make logout
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
 
-## Use this template
+## Architecture
+ReactJs, CSS, Auth0, BootStrap
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+## Change Log
+
+## Credit and Collaborations
+![Explain](map.jpg)
+
+Name of feature: login & logout
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 1:30
+
+Finish time: 2:30
+
+Actual time needed to complete: 1 hour 
+
+
+
+

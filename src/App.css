@@ -1,0 +1,64 @@
+body{
+    background-color: #364F6B !important;
+}
+.header{
+background-color: #3FC1C9 !important;
+padding: 15px;
+}
+.link{
+    color:#F5F5F5 !important ;
+    margin-left: 30px;
+}
+
+.welcome{
+    height: 82vh !important;
+    text-align: center;
+    color: #F5F5F5;
+    padding-top: 20px;
+}
+button{
+    margin-left: 30px !important;
+}
+
+.footer{
+    background-color:#3FC1C9 ;
+    text-align: center;
+}
+
+.title{
+    margin: auto;
+}
+h1{
+    padding: 10px;
+    color: #F5F5F5;
+}
+p{
+    padding: 10px;
+    color: #F5F5F5;
+}
+.about{
+    height: 82vh !important;
+}
+
+.card-body{
+    color: #FC5185 !important;
+}
+.pro{
+    height: 82vh !important;
+    padding-top: 30px !important;
+    color: #FC5185 !important;
+}
+
+.name{
+    text-align: center ;
+    color: #FC5185 !important;
+}
+.book{
+    height: 82vh;
+    color: #F5F5F5;
+    padding-top: 50px;
+    text-align: center;
+}
+.card{
+    margin: 20px auto;
+}
