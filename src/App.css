@@ -1,6 +1,12 @@
 body{
     background-color: #364F6B !important;
 }
+.carousel{
+    height: 50vh !important;
+}
+.carousel-item{
+    padding-top: 100px !important;
+}
 .header{
 background-color: #3FC1C9 !important;
 padding: 15px;
