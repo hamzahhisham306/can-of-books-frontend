@@ -12,7 +12,7 @@
 
 
 ## Architecture
-ReactJs, CSS, Auth0, BootStrap
+ReactJs, CSS, Auth0, BootStrap, MongoDB, axios
 
 ## Change Log
 
@@ -30,5 +30,13 @@ Finish time: 2:30
 Actual time needed to complete: 1 hour 
 
 
+Name of feature: get data from MongoDB
 
+Estimate of time needed to complete: 1 hour
+
+Start time: 8:30
+
+Finish time: 9:30
+
+Actual time needed to complete: 1 hour 
 

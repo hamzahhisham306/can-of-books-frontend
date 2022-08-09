@@ -1,16 +1,35 @@
+import axios from 'axios';
 import React from 'react';
+import  CarouselBook  from './CarouselBook';
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class BestBooks extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      books: []
+      books:[]
     }
   }
+  
+  
+  componentDidMount(){
+    
 
-  /* TODO: Make a GET request to your API to fetch all the books from the database  */
+    this.handlerBooks();
+  }
+  handlerBooks=async()=>{
+    const booksdata=await axios.get('https://mongodb301.herokuapp.com/books');
+     this.setState({
+      books:booksdata.data
+     })
+      
+  }
+
+  /* TODO: Make  a GET request to your API to fetch all the books from the database  */
 
   render() {
+    console.log('books',this.state.books)
 
     /* TODO: render all the books in a Carousel */
 
@@ -18,10 +37,10 @@ class BestBooks extends React.Component {
       <div className='book'>
         <h2>My Essential Lifelong Learning &amp; Formation Shelf</h2>
 
-        {this.state.books.length ? (
-          <p>Book Carousel coming soon</p>
+        {this.state.books.length?(
+            <CarouselBook books={this.state.books}/>
         ) : (
-          <h3>No Books Found :(</h3>
+          <h3>No Books Found books is Empity :(</h3>
         )}
       </div>
     )
