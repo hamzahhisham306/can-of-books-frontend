@@ -40,3 +40,35 @@ Finish time: 9:30
 
 Actual time needed to complete: 1 hour 
 
+
+Name of feature: add formModle to post method
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 7:30
+
+Finish time: 8:30
+
+Actual time needed to complete: 1 hour 
+
+
+Name of feature: delet method 
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 8:30
+
+Finish time: 9:30
+
+Actual time needed to complete: 1 hour 
+
+
+Name of feature: put method
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 9:30
+
+Finish time: 10:30
+
+Actual time needed to complete: 1 hour 
